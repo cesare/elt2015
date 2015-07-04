@@ -6,8 +6,14 @@ ja:
       vote:
         create: 投票する
   activerecord:
+    models:
+      exhibit: 出品物
     attributes:
       exhibit:
         title: タイトル
         description: 説明
         type: 種類
+  errors:
+    messages:
+      already_voted: にはすでに投票済みです
+      vote_required: は必ず選択してください
